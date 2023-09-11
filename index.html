@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav_content">
+                <img src="./img/icons/logo.svg" alt="logo" class="logo logo_on">
+                <div class="header_burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div class="burger_content moved">
+            <nav class="links">
+                <a class="checked_link" href="../index.html">главная</a>
+                <a href="./about_us/index.html">о нас</a>
+                <a href="">доставка</a>
+                <a href="./bags/index.html">товары</a>
+                <div class="social_media">
+                    <a href="">
+                        <img src="./img/icons/inst-icon.svg" alt="">
+                    </a>
+                </div>
+            </nav>
+        </div>
+        <div class="header_promo">
+            <div class="promo_imgs">
+                <div class="promo_info">
+                    <img src="./img/photo/heade-promo.png" alt="">
+                    <div class="img_info">
+                        <h1 style="line-height: 45px; margin-bottom: 50px;">Начало чего-то стильного</h1>
+                        <a style=" padding: 25px 40px; background-color: black; color: azure; text-decoration: none;" href="#registration" id="more-info">Начать</a>
+                    </div>
+                </div>
+                <div class="promo_img2">
+                    <img src="./img/photo/header-promo2.jpg" alt="">
+                    <img src="./img/photo/header-promo3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="sct1">
+            <div class="sct1_title">
+                <h1>Новинки</h1>
+            </div>
+            <div class="sct1_imgs">
+                <div class="about_bags">
+                    <h1>type-1</h1>
+                    <img src="./img/photo/sct1_img1.jpg" alt="">
+                    <button data-modal-button="modal1" class="popap_window">Подробнее</button>
+                </div>
+                <div class="about_bags">
+                    <h1>type-2</h1>
+                    <img src="./img/photo/sct1_img2.jpg" alt="">
+                    <button data-modal-button="modal2" class="popap_window">Подробнее</button>
+                </div>
+                <div class="about_bags">
+                    <h1>type-3</h1>
+                    <img src="./img/photo/sct1_img3.jpg" alt="">
+                    <button data-modal-button="modal3" class="popap_window">Подробнее</button>
+                </div>
+                <div class="about_bags">
+                    <h1>type-4</h1>
+                    <img src="./img/photo/sct1_img4.jpg" alt="">
+                    <button data-modal-button="modal4" class="popap_window">Подробнее</button>
+                </div>
+                <div class="about_bags">
+                    <h1>type-5</h1>
+                    <img src="./img/photo/sct1_img5.jpg" alt="">
+                    <button data-modal-button="modal5" class="popap_window">Подробнее</button>
+                </div>
+                <div class="about_bags">
+                    <h1>type-6</h1>
+                    <img src="./img/photo/sct1_img6.jpg" alt="">
+                    <button data-modal-button="modal6" class="popap_window">Подробнее</button>
+                </div>
+            </div>
+            <div class="sct1_modal_windows">
+                <div id="modal1" data-modal class="modal-window hidden blur_popup">
+                    <div class="modal_info">
+                        <h1>Type-1</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, nobis.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem cupiditate amet ipsa pariatur!
+
+                        </p>
+                        <button class="close_modal" data-modal-close="modal1">Закрыть</button>
+                    </div>
+                </div>
+                <div id="modal2" data-modal class="modal-window hidden blur_popup">
+                    <div class="modal_info">
+                        <h1>Type-2</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ullam assumenda deleniti, iure
+                            sed quam? Impedit adipisci assumenda voluptatibus suscipit.</p>
+                        <button class="close_modal" data-modal-close="modal2">Закрыть</button>
+                    </div>
+                </div>
+                <div id="modal3" data-modal class="modal-window hidden blur_popup">
+                    <div class="modal_info">
+                        <h1>Type-3</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi facere, sequi id ut reiciendis
+                            temporibus nobis quaerat rerum voluptates?</p>
+                        <button class="close_modal" data-modal-close="modal3">Закрыть</button>
+                    </div>
+                </div>
+                <div id="modal4" data-modal class="modal-window hidden blur_popup">
+                    <div class="modal_info blur_popup">
+                        <h1>Type-4</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum blanditiis nisi deserunt
+                            adipisci cumque dignissimos fugiat!</p>
+                        <button class="close_modal" data-modal-close="modal4">Закрыть</button>
+                    </div>
+                </div>
+                <div id="modal5" data-modal class="modal-window hidden blur_popup">
+                    <div class="modal_info">
+                        <h1>Type-5</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis nostrum ab officiis, dolore
+                            alias perspiciatis magni libero! Voluptates, recusandae alias?</p>
+                        <button class="close_modal" data-modal-close="modal5">Закрыть</button>
+                    </div>
+                </div>
+                <div id="modal6" data-modal class="modal-window hidden blur_popup">
+                    <div class="modal_info">
+                        <h1>Type-6</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi, tempora.</p>
+                        <button class="close_modal" data-modal-close="modal6">Закрыть</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sct2 about_us">
+            <img src="./img/photo/aboutus_img.jpg" alt="">
+            <div class="sct2_title">
+               <h1>О нас</h1>
+                <p style="font-size: 25px
+                ;">Нашей миссией является помочь вам выразить <span style="font-weight: 700;">свой индивидуальный стиль через сумки</span>, которые
+                    подчеркивают вашу уверенность и креативность. Мы также гордимся нашим превосходным обслуживанием
+                    клиентов и готовностью помочь вам в выборе и уходе за вашими сумками.</p>
+                <a href="./about_us/index.html">Подробнее</a>
+            </div>
+        </section>
+        <section class="registration" id="registration">
+            <div class="registr_wrapp">
+                <div class="registration_title">
+                    <div class="block_title">
+                       <img src="./img/icons/whatsapp_icon.svg" alt="">
+                       <p>Мы свяжемся с вами в ближайшее время</p>
+                    </div>
+                    <div class="block_title">
+                        <img src="./img/icons/client_icon.svg" alt="">
+                        <p>Вас проконсультирует <span style="font-weight: 700;">профессионал</span> в мире моды</p>
+                    </div>
+                    <div class="block_title">
+                        <img src="./img/icons/addres_icon.svg" alt="">
+                        <p>Регистрируем заказ в любую точку Казахстана, с <span style="font-weight: 900;">бесплатной</span> доставкой </p>
+                    </div>
+                </div>
+                <form id="form" action="#" method="post" class="reg_form">
+                    <label style="font-size: 25px;" for="fullName">ФИО:</label>
+                    <input placeholder="Алия Алиева Данияровна" type="text" id="fullName" name="fullName" required><br><br>
+
+                    <label style="font-size: 25px;" for="email">WhatsApp:</label>
+                    <input maxlength="17" pattern=".{17,}"  required="" name="user_phone" type="text" inputmode="numeric" placeholder="+7(___)___-__-__">
+                    <div class="informated_title">
+                        <input class="informated" type="radio">
+                        <label style="font-size: 22px;" for="radio">я согласна(-сен) с правилами</label>
+                    </div>
+                    <br><br>
+
+
+                    <input type="submit" value="Начать свой заказ" class="submit_btn">
+                </form>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+    <script src='./js/index.js'></script>
+</body>
+
+</html>
