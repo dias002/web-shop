@@ -12,6 +12,8 @@ html, body {
 
 header {
   position: relative;
+  height: auto;
+  padding-bottom: 100px;
 }
 header .navbar {
   position: absolute;
@@ -117,7 +119,6 @@ header .burger_content .social_media a img {
   width: fit-content;
   position: relative;
   font-size: 35px;
-  padding-top: 100px;
   padding-bottom: 20px;
 }
 .title::after {

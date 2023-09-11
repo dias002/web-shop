@@ -36,8 +36,9 @@ html, body {
 }
 
 header {
-  height: 110vh;
+  height: auto;
   position: relative;
+  padding-bottom: 100px;
 }
 header .navbar {
   position: absolute;
@@ -174,11 +175,6 @@ header .header_promo .promo_imgs .promo_img2 img:first-child {
   width: 49%;
 }
 
-@media (min-width: 375px) {
-  header {
-    height: 160vh;
-  }
-}
 main .sct1 {
   position: relative;
 }
@@ -278,7 +274,7 @@ main .sct2 .sct2_title a {
 }
 main .registration {
   width: 100%;
-  height: 130vh;
+  height: auto;
 }
 main .registration .registr_wrapp {
   height: 100%;

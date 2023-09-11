@@ -34,3 +34,5 @@ modals.forEach (function(item){
         this.classList.add('hidden')
     })
 });
+
+$(".whatsapp_num").mask("+7(999) 999-9999");

@@ -33,8 +33,9 @@ html,body{
 // header 
 
 header{
-    height: 110vh;
+    height: auto;
     position: relative;
+    padding-bottom: 100px;
     .navbar{
         position: absolute;
         height: 80px;
@@ -178,11 +179,7 @@ header{
         }
     }
 }
-@media (min-width:375px) {
-    header{
-        height: 160vh;
-    }
-}
+
 
 // main
 main{
@@ -290,7 +287,7 @@ main{
     }
     .registration{
         width: 100%;
-        height: 130vh;
+        height: auto;
         .registr_wrapp{
             height: 100%;
             width: 90%;
